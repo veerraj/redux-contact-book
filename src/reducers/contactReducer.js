@@ -271,7 +271,7 @@ const contactReducer = (state = initialState, action) => {
       return {
         ...state,
         contacts: state.contacts.map((contact) =>
-          contact.id == action.data.id ? action.data : state.contact
+          contact.id == action.data.id ? action.data : contact
         ),
       };
     case DELETE_CONTACT:
