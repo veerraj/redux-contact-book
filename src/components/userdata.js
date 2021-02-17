@@ -39,7 +39,7 @@ export default function UserData(props) {
       </td>
       <td>{props.contact.phone}</td>
       <td>{props.contact.email}</td>
-      <td className="actions">
+      <td>
         <Link to={"/contacts/edit/" + props.contact.id}>
           <span className="material-icons">edit</span>
         </Link>
