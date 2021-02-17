@@ -26,7 +26,8 @@ export default function Contact() {
           delete all
         </button>
       ) : null}
-      <table className="table shadow">
+      <div className="table-responsive">
+      <table className="table shadow mx-auto w-auto">
         <thead className="bg-danger text-white">
           <tr>
             <th scope="col">
@@ -56,6 +57,8 @@ export default function Contact() {
           ))}
         </tbody>
       </table>
+      </div>
+    
     </div>
   );
 }
